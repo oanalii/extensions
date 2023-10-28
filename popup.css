@@ -1,0 +1,29 @@
+body {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link-directory button {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  
